@@ -72,7 +72,7 @@ elif p_value < 0.05 and coef > 0:
     print('hipótese invertida')
     print('jogos mais populares tendem a ter notas maiores.')
 else:
-    print('hipótese negada')
+    print('hipótese rejeitada')
     print('não há evidência estatística suficiente.')
 
 # --- geração de gráficos ---
@@ -116,3 +116,4 @@ plt.tight_layout()
 plt.show()
 
 # ajuste final de layout e exibição
+
